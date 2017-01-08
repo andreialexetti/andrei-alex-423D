@@ -27,3 +27,5 @@ y=a* sin(f * t);
 y(find(y<0))=0;
 plot(t,y);
 axis([0 12 -2 2]);xlabel('Time (sec)');ylabel('Amplitude');
+%Rezolvarea a fost realizata inainte de deadline si incarcata pe github atat pe sectiunea cod cat si in issues . 
+%Prima tema cu deadline 06.11.2016 in sectiunea cod nu poate fi accesata ,iar din acest motiv a mai fost incarcat din nou .
