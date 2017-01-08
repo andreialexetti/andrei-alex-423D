@@ -1,0 +1,38 @@
+a=2.5;
+f= 0.2;
+
+f=f*2*pi;
+t=0:0.002:15;
+y=a*sawtooth(f*t)
+plot(t,y);
+axis([0 15 -2 1]);xlabel('Time (sec)');ylabel('Amplitude');
+
+a=2.5;
+f= 0.2;
+
+f=f*2*pi;
+t=0:0.02:15;
+y=a*sawtooth(f*t)
+plot(t,y);
+axis([0 15 -2 1]);xlabel('Time (sec)');ylabel('Amplitude');
+
+a=2.5;
+f= 0.2;
+
+f=f*2*pi;
+t=0:0.2:15;
+y=a*sawtooth(f*t)
+plot(t,y);
+axis([0 15 -2 1]);xlabel('Time (sec)');ylabel('Amplitude');
+
+
+
+
+ a=1;
+f= 4;
+
+f=f*2*pi;
+t=0:0.002:1;
+y=a*square(f*t)
+plot(t,y);
+axis([0 1 -2 2]);xlabel('Time (sec)');ylabel('Amplitude');
