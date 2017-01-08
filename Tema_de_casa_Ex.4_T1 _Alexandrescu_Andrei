@@ -1,0 +1,29 @@
+%a)rezolutie temporara de 2ms :
+a=0.8;
+f= 0.33;
+f=f * 2 * pi;
+t=0:0.002:12;
+y=a* sin(f * t);
+y(find(y<0))=0;
+plot(t,y);
+axis([0 12 -2 2]);xlabel('Time (sec)');ylabel('Amplitude');
+
+%b)rezolutie temporara de 20ms :
+a=0.8;
+f= 0.33;
+f=f * 2 * pi;
+t=0:0.02:12;
+y=a* sin(f * t);
+y(find(y<0))=0;
+plot(t,y);
+axis([0 12 -2 2]);xlabel('Time (sec)');ylabel('Amplitude');
+
+%c)rezolutie temporara de 200ms
+a=0.8;
+f= 0.33;
+f=f * 2 * pi;
+t=0:.2:12;
+y=a* sin(f * t);
+y(find(y<0))=0;
+plot(t,y);
+axis([0 12 -2 2]);xlabel('Time (sec)');ylabel('Amplitude');
