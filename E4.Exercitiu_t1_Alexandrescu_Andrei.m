@@ -17,3 +17,5 @@ n=[0,50];
 y=(pi/17 * n);
 x=sin(y);
 stem(x);
+%Rezolvarea a fost realizata inainte de deadline si incarcata pe github atat pe sectiunea cod cat si in issues . 
+%Prima tema cu deadline 06.11.2016 in sectiunea cod nu poate fi accesata ,iar din acest motiv a mai fost incarcat din nou .
